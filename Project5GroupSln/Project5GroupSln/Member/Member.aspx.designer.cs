@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Project5GroupSln
+namespace Project5GroupSln.Member
 {
 
 
-  public partial class Default
+  public partial class Member
   {
 
     /// <summary>
@@ -24,30 +24,12 @@ namespace Project5GroupSln
     protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
     /// <summary>
-    /// btnMember control.
+    /// btnBackToDefault control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.WebControls.Button btnMember;
-
-    /// <summary>
-    /// btnMemberRegister control.
-    /// </summary>
-    /// <remarks>
-    /// Auto-generated field.
-    /// To modify move field declaration from designer file to code-behind file.
-    /// </remarks>
-    protected global::System.Web.UI.WebControls.Button btnMemberRegister;
-
-    /// <summary>
-    /// btnClear control.
-    /// </summary>
-    /// <remarks>
-    /// Auto-generated field.
-    /// To modify move field declaration from designer file to code-behind file.
-    /// </remarks>
-    protected global::System.Web.UI.WebControls.Button btnClear;
+    protected global::System.Web.UI.WebControls.Button btnBackToDefault;
   }
 }

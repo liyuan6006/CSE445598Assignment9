@@ -5,3 +5,8 @@ Project5GroupSln/.vs/
 Project5GroupSln/Project5GroupSln/Project5GroupSln.csproj.user
 Project5GroupSln/Project5GroupSln/Web.Debug.config
 Project5GroupSln/Project5GroupSln/Web.Release.config
+Project5GroupSln/Authentication/obj/
+Project5GroupSln/AuthenticationLibrary/bin/
+Project5GroupSln/AuthenticationLibrary/obj/
+Project5GroupSln/MD5hashLibrary/bin/
+Project5GroupSln/MD5hashLibrary/obj/

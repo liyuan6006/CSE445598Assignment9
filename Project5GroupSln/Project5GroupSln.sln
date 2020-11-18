@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project5GroupSln", "Project5GroupSln\Project5GroupSln.csproj", "{51A292FF-1061-4F4F-956C-C2ABE842C820}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD5hashLibrary", "MD5hashLibrary\MD5hashLibrary.csproj", "{8BEF4B24-9113-4DBC-9F29-66FC26AE12AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationLibrary", "AuthenticationLibrary\AuthenticationLibrary.csproj", "{AE074583-8B33-4A60-9240-E1BF29F21AF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{51A292FF-1061-4F4F-956C-C2ABE842C820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A292FF-1061-4F4F-956C-C2ABE842C820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A292FF-1061-4F4F-956C-C2ABE842C820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEF4B24-9113-4DBC-9F29-66FC26AE12AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEF4B24-9113-4DBC-9F29-66FC26AE12AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEF4B24-9113-4DBC-9F29-66FC26AE12AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEF4B24-9113-4DBC-9F29-66FC26AE12AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE074583-8B33-4A60-9240-E1BF29F21AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE074583-8B33-4A60-9240-E1BF29F21AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE074583-8B33-4A60-9240-E1BF29F21AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE074583-8B33-4A60-9240-E1BF29F21AF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
