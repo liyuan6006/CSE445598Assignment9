@@ -59,6 +59,7 @@ namespace Project5GroupSln
 
         Response.Cookies.Add(faCookie);
 
+        Session["username"] = inputUserName;
         Response.Redirect(@"~/Member/Member.aspx");
 
       }
