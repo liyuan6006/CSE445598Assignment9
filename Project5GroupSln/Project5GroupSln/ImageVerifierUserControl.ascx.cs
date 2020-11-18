@@ -11,7 +11,7 @@ namespace Project5GroupSln
   {
     protected void Page_Load(object sender, EventArgs e)
     {
-      this.Image1.ImageUrl = "~/ImageProcess.aspx";
+      this.Image1.ImageUrl = @"~/ImageProcess.aspx";
     }
 
     /// <summary>

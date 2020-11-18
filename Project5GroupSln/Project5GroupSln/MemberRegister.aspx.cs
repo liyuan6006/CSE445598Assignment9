@@ -82,14 +82,24 @@ namespace Project5GroupSln
     /// <returns></returns>
     private bool VerifyInputAganistImage()
     {
-      if (Session["generatedString"].Equals(this.txtInputForImage.Text))
+      try
       {
-        return true;
+        if (Session["generatedString"].Equals(this.txtInputForImage.Text))
+        {
+          return true;
+        }
+        else
+        {
+          return false;
+        }
       }
-      else
+      catch (Exception ex)
       {
+
+        this.lblResult.Text = "Error: "+ex.Message;
         return false;
       }
+     
     }
 
     /// <summary>
