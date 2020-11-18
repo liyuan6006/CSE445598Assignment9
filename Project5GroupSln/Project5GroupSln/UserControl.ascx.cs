@@ -11,11 +11,19 @@ namespace Project5GroupSln
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            String datex;
+            String datex, userName;
             DateTime thisDay = DateTime.Now;
             datex = thisDay.ToString("g");
+            if(Session["username"] != null)
+            {
+                userName = (string)Session["username"];
+            }
+            else
+            {
+                userName = "User";
+            }
             date.Text = datex;
-            greeting.Text = "Hello, User. <br> Welcome to our website!";
+            greeting.Text =string.Format("Hello, {0}. <br> Welcome to our website!" , userName);
             // if we get cookies or session state maybe we can use it here.
             if(Session["clicks"] != null)
             {
