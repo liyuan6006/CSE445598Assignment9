@@ -43,7 +43,18 @@ namespace Project5GroupSln
     protected void btnClear_Click(object sender, EventArgs e)
     {
       FormsAuthentication.SignOut();
+      Session["staff"] = false;
       Response.Write("Logged out - cookie deleted.");
     }
-  }
+        /// <summary>
+        /// staff button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected void btnStaff_Click(object sender, EventArgs e)
+    {
+       Response.Redirect(@"~/Staff/Staff.aspx");
+    }
+
+   }
 }

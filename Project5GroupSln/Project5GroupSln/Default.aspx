@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Project5GroupSln.Default" %>
-
+<%@ Register TagPrefix="uc" TagName="greeting" src="UserControl.ascx" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -34,6 +34,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <uc:greeting runat="server" />
 
         <h3 style="text-align: center">Default Page</h3>
         <div>*This system uses forms-based authentication. Default and Register pages are public pages, everyone can access it.</div>
@@ -47,6 +48,12 @@
                     <asp:Button ID="btnMemberRegister" runat="server" Text="Member Register Page" OnClick="btnMemberRegister_Click" />
                 </td>
 
+            </tr>
+            <tr>
+                <td> You need to log in to access the staff pages.</td>
+                <td>
+                    <asp:Button ID="btnStaff" runat="server" Text="Staff Page" OnClick="btnStaff_Click" />
+                </td><td></td>
             </tr>
 
             <tr>

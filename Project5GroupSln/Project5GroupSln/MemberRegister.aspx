@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MemberRegister.aspx.cs" Inherits="Project5GroupSln.MemberRegister" %>
+<%@ Register TagPrefix="uc" TagName="greeting" src="UserControl.ascx" %>
 
 <%@ Register Src="~/ImageVerifierUserControl.ascx" TagPrefix="uc1" TagName="ImageVerifierUserControl" %>
 <!DOCTYPE html>
@@ -35,7 +36,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-
+        <uc:greeting runat="server" />
         <h3 style="text-align: center">Member Register Page</h3>
         <div>*After you register successfully, you will be redirect to Member page.</div>
         <div>*The register function will call CreateMember remote service at http://webstrar53.fulton.asu.edu/Page5/Service.svc?wsdl to save the member info into the Member.xml</div>

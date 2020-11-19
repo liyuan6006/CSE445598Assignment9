@@ -42,6 +42,15 @@ namespace Project5GroupSln
         protected global::System.Web.UI.WebControls.Label date;
 
         /// <summary>
+        /// staff_status control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label staff_status;
+
+        /// <summary>
         /// session_count control.
         /// </summary>
         /// <remarks>

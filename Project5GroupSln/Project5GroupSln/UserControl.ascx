@@ -4,6 +4,8 @@
     <br />
     <asp:Label ID="date" runat="server" Text="date"></asp:Label>
     <br />
+    <asp:Label ID="staff_status" runat="server"></asp:Label>
+    <br />
     <asp:Label ID="session_count" runat="server" Text="session_info"></asp:Label>
     <br />
     <asp:Button ID="session_1" runat="server" OnClick="session_1_Click" Text="session_add" />

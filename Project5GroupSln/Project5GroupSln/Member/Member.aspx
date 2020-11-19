@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Member.aspx.cs" Inherits="Project5GroupSln.Member.Member" %>
+<%@ Register TagPrefix="uc" TagName="greeting" src="../UserControl.ascx" %>
 
 <!DOCTYPE html>
 
@@ -8,6 +9,7 @@
 </head>
 <body>
      <form id="form1" runat="server">
+         <uc:greeting runat="server" />
         <h3>Member Page</h3>
 
         <div>

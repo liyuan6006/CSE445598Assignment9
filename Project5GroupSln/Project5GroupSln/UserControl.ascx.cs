@@ -31,6 +31,13 @@ namespace Project5GroupSln
                 string clicks_str = clicks.ToString();
                 session_count.Text = clicks_str;
             }
+            if(Session["staff"] != null) // if staff variable set
+            {
+                if((bool)Session["staff"] == true)
+                {
+                    staff_status.Text = "Staff Privileges Active!";
+                }
+            }
             
 
 

@@ -89,6 +89,7 @@
     <Content Include="luke_testing.aspx" />
     <Content Include="MemberRegister.aspx" />
     <Content Include="Member\Member.aspx" />
+    <Content Include="Staff\Staff.aspx" />
     <Content Include="UserControl.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -156,6 +157,13 @@
       <DependentUpon>Member.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Staff\Staff.aspx.cs">
+      <DependentUpon>Staff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff\Staff.aspx.designer.cs">
+      <DependentUpon>Staff.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserControl.ascx.cs">
       <DependentUpon>UserControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -184,6 +192,7 @@
     </None>
     <Content Include="Member\Web.config" />
     <None Include="packages.config" />
+    <Content Include="Staff\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

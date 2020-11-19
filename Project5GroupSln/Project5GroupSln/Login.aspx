@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Project5GroupSln.Login" %>
-
+<%@ Register TagPrefix="uc" TagName="greeting" src="UserControl.ascx" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -33,6 +33,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <uc:greeting runat="server" />
         <h3 style="text-align: center">Login Page</h3>
 
         <div>*You need to enter the correct username and password to login </div>
@@ -79,6 +80,8 @@
         </div>
 
         <asp:Button ID="btnLoginAsMember" runat="server" class="btn btn-primary" Text="Login As Member" OnClick="btnLoginAsMember_Click" />
+
+        <asp:Button ID="btnLoginAsStaff" runat="server" OnClick="btnLoginAsStaff_Click" Text="Login As Staff" />
 
         <asp:Button ID="btnGoBack" runat="server" Text="Go back to Default page" OnClick="btnGoBack_Click" />
     </form>

@@ -26,10 +26,7 @@ namespace Project5GroupSln
       Response.Redirect(@"~/Default.aspx");
     }
 
-    protected void btnLoginAsStaff_Click(object sender, EventArgs e)
-    {
-
-    }
+ 
 
     /// <summary>
     /// Login as member
@@ -68,5 +65,35 @@ namespace Project5GroupSln
         this.lblLoginError.Text = "Invalid Credentials: Please try again.";
       }
     }
-  }
+
+        protected void btnLoginAsStaff_Click(object sender, EventArgs e)
+        {
+            //get user's input
+            string inputUserName = this.txtUserName.Text;
+            string password = this.txtPassword.Text;
+
+            if (Authentication.ValidateUser(inputUserName, password, "Staff"))
+            {
+                // initialize FormsAuthentication
+                FormsAuthentication.Initialize();
+                // create a new ticket used for authentication
+                FormsAuthenticationTicket authTicket = new FormsAuthenticationTicket(1, inputUserName, DateTime.Now, DateTime.Now.AddMinutes(15), this.chekRememberMe.Checked, "userData");
+                // encrypt the cookie using the machine key for secure transport
+                string encTicket = FormsAuthentication.Encrypt(authTicket);
+                // create and add the cookies to the list for outgoing response
+                HttpCookie faCookie = new HttpCookie(FormsAuthentication.FormsCookieName, encTicket);
+
+                Response.Cookies.Add(faCookie);
+
+                Session["username"] = inputUserName;
+                Session["staff"] = true; // flag for staff access
+                Response.Redirect(@"~/Staff/Staff.aspx");
+
+            }
+            else
+            {
+                this.lblLoginError.Text = "Invalid Credentials: Please try again.";
+            }
+        }
+    }
 }
