@@ -56,5 +56,21 @@ namespace Project5GroupSln
        Response.Redirect(@"~/Staff/Staff.aspx");
     }
 
-   }
+    /// <summary>
+    /// Try it hash
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    protected void btnHash_Click(object sender, EventArgs e)
+    {
+      if (string.IsNullOrEmpty(this.txtPwdToHash.Text)) 
+      {
+        this.lblHashResult.Text = "The password string can not be empty!";
+      }
+      else
+      {
+        this.lblHashResult.Text = MD5HashLibrary.MD5Hash.Encrypt(this.txtPwdToHash.Text);
+      }
+    }
+  }
 }

@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Project5GroupSln.Default" %>
-<%@ Register TagPrefix="uc" TagName="greeting" src="UserControl.ascx" %>
+
+<%@ Register TagPrefix="uc" TagName="greeting" Src="UserControl.ascx" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -50,10 +51,11 @@
 
             </tr>
             <tr>
-                <td> You need to log in to access the staff pages.</td>
+                <td>You need to log in to access the staff pages.</td>
                 <td>
                     <asp:Button ID="btnStaff" runat="server" Text="Staff Page" OnClick="btnStaff_Click" />
-                </td><td></td>
+                </td>
+                <td></td>
             </tr>
 
             <tr>
@@ -64,6 +66,20 @@
 
             </tr>
 
+        </table>
+        <hr />
+        <h3 style="text-align: center">Below is TryIt section for implicitly used components</h3>
+        <table id="customers2">
+            <tr>
+                <td>Try Hash function. It's built in MD5hashLibrary.dll</td>
+                <td>
+                    <asp:Label ID="Label1" runat="server" Text="Enter a password string:"></asp:Label>
+                    <asp:TextBox ID="txtPwdToHash" runat="server"></asp:TextBox></td>
+                <td>
+                    <asp:Button ID="btnHash" runat="server" Text="Click to hash" OnClick="btnHash_Click" /></td>
+                <td>
+                    <asp:Label ID="lblHashResult" runat="server" Text="Hash result:"></asp:Label></td>
+            </tr>
         </table>
     </form>
 </body>
