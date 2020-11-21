@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Staff.aspx.cs" Inherits="Project5GroupSln.Staff.Staff" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Staff.aspx.cs" Inherits="Project5GroupSln.Staff.Staff" %>
 <%@ Register TagPrefix="uc" TagName="greeting" src="../UserControl.ascx" %>
 
 <!DOCTYPE html>
