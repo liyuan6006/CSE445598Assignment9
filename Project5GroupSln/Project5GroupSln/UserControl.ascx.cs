@@ -22,7 +22,7 @@ namespace Project5GroupSln
             {
                 userName = "User";
             }
-            greeting.Text =string.Format("Hello, {0}. <br> Welcome to our website!" , userName);
+            greeting.Text =string.Format("Hello, {0}!" , userName);
 
             // Let the user know if they have Staff privileges if applicable
             if(Session["staff"] != null) // if staff variable set

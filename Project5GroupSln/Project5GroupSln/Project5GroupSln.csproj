@@ -75,9 +75,23 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Connected Services\SEOService\RequiredServices.wsdl" />
+    <None Include="Connected Services\SEOService\RequiredServices.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\SEOService\RequiredServices1.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\XMLServiceRef\configuration91.svcinfo" />
     <None Include="Connected Services\XMLServiceRef\configuration.svcinfo" />
     <None Include="Connected Services\XMLServiceRef\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\SEOService\RequiredServices.disco" />
+    <None Include="Connected Services\SEOService\configuration91.svcinfo" />
+    <None Include="Connected Services\SEOService\configuration.svcinfo" />
+    <None Include="Connected Services\SEOService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -86,6 +100,9 @@
     <Content Include="ImageProcess.aspx" />
     <Content Include="ImageVerifierUserControl.ascx" />
     <Content Include="Login.aspx" />
+    <Content Include="logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="luke_testing.aspx" />
     <Content Include="MemberRegister.aspx" />
     <Content Include="Member\Member.aspx" />
@@ -96,6 +113,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connected Services\ImageVerifierServiceRef\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\SEOService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -206,6 +228,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\ImageVerifierServiceRef\" />
+    <WCFMetadataStorage Include="Connected Services\SEOService\" />
     <WCFMetadataStorage Include="Connected Services\XMLServiceRef\" />
   </ItemGroup>
   <ItemGroup>
