@@ -145,6 +145,44 @@
             </td>
 
         </tr>
+        <tr>
+            <td>Michael Syrjala</td>
+            <td>
+                DLL: InspirationalQuoteLibrary.dll<br />
+            </td>
+            <td>
+                InspirationalQuoteLibrary.dll: Provides Inspirational Quotes to the UserControl that serves as the applications header.<br />
+            </td>
+            <td>
+                Utilizes a list of quotes that was sourced from https://gist.github.com/erickedji/68802
+                and provides them at random when requested by the UserControl
+            </td>
+        </tr>
+        <tr>
+            <td>Michael Syrjala</td>
+            <td>
+                Global.asax: Active Session Counter<br />
+            </td>
+            <td>
+                Uses a thread safe collection to keep track of the number of active sessions that the application currently has. This information is then provided to the user in the UserControl.
+                Given the anticipated user load it is not anticipated that any performance issues should result.<br />
+            </td>
+            <td>
+                Utilizes a thread safe ConcurrentStack bound to an Application state variable. The number of items in the stack is the count of active sessions.
+            </td>
+        </tr>
+        <tr>
+            <td>Luke Schulz</td>
+            <td>
+                User Control<br />
+            </td>
+            <td>
+                Header for application utilized on all pages that shows a user greeting, date/time, number of users (sessions) active on the website, and provides inspirational quotes<br />
+            </td>
+            <td>
+                C# Code behind, control embedded in all pages as a header. Uses session and application state as well as the InspirationalQuote DLL.
+            </td>
+        </tr>
 
         <tfoot>
             <tr>

@@ -17,7 +17,7 @@ namespace InspirationalQuoteLibrary
         }
 
         // the following is a subset of the quotes found at
-        // https://gist.githubusercontent.com/erickedji/68802/raw/7264f2d232702b4013490a0b2f9286cfa1b817e3/quotes.txt
+        // https://gist.github.com/erickedji/68802
 
         private static string[] quotes = new string[] {
 @"Don't worry about what anybody else is going to do. The best way to
