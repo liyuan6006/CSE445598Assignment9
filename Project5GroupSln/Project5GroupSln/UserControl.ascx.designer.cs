@@ -33,15 +33,6 @@ namespace Project5GroupSln
         protected global::System.Web.UI.WebControls.Label greeting;
 
         /// <summary>
-        /// date control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label date;
-
-        /// <summary>
         /// staff_status control.
         /// </summary>
         /// <remarks>
@@ -51,21 +42,30 @@ namespace Project5GroupSln
         protected global::System.Web.UI.WebControls.Label staff_status;
 
         /// <summary>
-        /// session_count control.
+        /// date control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label session_count;
+        protected global::System.Web.UI.WebControls.Label date;
 
         /// <summary>
-        /// session_1 control.
+        /// quoteBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button session_1;
+        protected global::System.Web.UI.WebControls.Button quoteBtn;
+
+        /// <summary>
+        /// inspirational_quote control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label inspirational_quote;
     }
 }

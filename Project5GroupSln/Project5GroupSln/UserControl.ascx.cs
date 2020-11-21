@@ -11,9 +11,8 @@ namespace Project5GroupSln
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            String datex, userName;
-            DateTime thisDay = DateTime.Now;
-            datex = thisDay.ToString("g");
+            // Show the user their username if logged in
+            String userName;
             if(Session["username"] != null)
             {
                 userName = (string)Session["username"];
@@ -22,38 +21,28 @@ namespace Project5GroupSln
             {
                 userName = "User";
             }
-            date.Text = datex;
+
+            // Show the user the date
+            date.Text = DateTime.Now.ToString("g");
             greeting.Text =string.Format("Hello, {0}. <br> Welcome to our website!" , userName);
-            // if we get cookies or session state maybe we can use it here.
-            if(Session["clicks"] != null)
-            {
-                int clicks = (int)Session["clicks"];
-                string clicks_str = clicks.ToString();
-                session_count.Text = clicks_str;
-            }
+
+            // Let the user know if they have Staff privileges if applicable
             if(Session["staff"] != null) // if staff variable set
             {
-                if((bool)Session["staff"] == true)
+                if ((bool)Session["staff"] == true)
                 {
-                    staff_status.Text = "Staff Privileges Active!";
+                    staff_status.Text = "You have Staff Privileges!";
                 }
             }
-            
 
-
+            // Show the user an inspirational quote
+            inspirational_quote.Text = InspirationalQuoteLibrary.InspirationalQuotes.GetRandomQuote();
         }
 
-        protected void session_1_Click(object sender, EventArgs e)
+        protected void quoteBtn_Click(object sender, EventArgs e)
         {
-            if(Session["clicks"] == null)
-            {
-                Session["clicks"] = 1;
-            }
-            else
-            {
-                int clicks = (int)Session["clicks"];
-                Session["clicks"] = clicks + 1;
-            }
+            // User has requested a new inspirational quote be shown
+            inspirational_quote.Text = InspirationalQuoteLibrary.InspirationalQuotes.GetRandomQuote();
         }
     }
 }

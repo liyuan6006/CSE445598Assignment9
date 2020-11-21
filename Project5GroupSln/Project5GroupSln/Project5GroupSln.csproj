@@ -213,6 +213,10 @@
       <Project>{ae074583-8b33-4a60-9240-e1bf29f21af0}</Project>
       <Name>AuthenticationLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="..\InspirationalQuoteLibrary\InspirationalQuoteLibrary.csproj">
+      <Project>{2ef7a0e6-32b0-49d1-a961-5f106dc2be30}</Project>
+      <Name>InspirationalQuoteLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MD5hashLibrary\MD5hashLibrary.csproj">
       <Project>{8bef4b24-9113-4dbc-9f29-66fc26ae12ae}</Project>
       <Name>MD5hashLibrary</Name>

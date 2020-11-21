@@ -7,6 +7,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <_PublishTargetUrl>C:\Users\michael\Desktop\publish</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="ApplicationComponents.html">
+      <publishTime>11/21/2020 10:35:58</publishTime>
+    </File>
     <File Include="bin/AuthenticationLibrary.dll">
       <publishTime>11/21/2020 09:50:00</publishTime>
     </File>
@@ -23,10 +26,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/05/2018 16:10:50</publishTime>
     </File>
     <File Include="bin/Project5GroupSln.dll">
-      <publishTime>11/21/2020 10:49:34</publishTime>
+      <publishTime>11/21/2020 10:57:36</publishTime>
     </File>
     <File Include="bin/Project5GroupSln.pdb">
-      <publishTime>11/21/2020 10:49:34</publishTime>
+      <publishTime>11/21/2020 10:57:36</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>08/08/2018 05:38:48</publishTime>
@@ -185,7 +188,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/20/2020 19:51:11</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>11/21/2020 10:43:20</publishTime>
+      <publishTime>11/21/2020 10:56:06</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>11/15/2020 19:45:46</publishTime>
