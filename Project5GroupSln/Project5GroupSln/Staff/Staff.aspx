@@ -5,7 +5,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Staff Page</title>
+        <style>
+        form {
+            margin-left: 20%;
+            margin-right: 20%;
+            width: 60%;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">

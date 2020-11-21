@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Login Page</title>
     <style>
          #customers {
             font-family: Arial, Helvetica, sans-serif;
@@ -25,9 +25,9 @@
                 background-color: #ddd;
             }
         form {
-            margin-left: 25%;
-            margin-right: 25%;
-            width: 50%;
+            margin-left: 20%;
+            margin-right: 20%;
+            width: 60%;
         }
     </style>
 </head>
