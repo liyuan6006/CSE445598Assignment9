@@ -72,5 +72,10 @@ namespace Project5GroupSln
         this.lblHashResult.Text = MD5HashLibrary.MD5Hash.Encrypt(this.txtPwdToHash.Text);
       }
     }
-  }
+
+        protected void buttonServiceDirectory_Click(object sender, EventArgs e)
+        {
+            Response.Redirect(@"~/ServiceDirectory.html");
+        }
+    }
 }

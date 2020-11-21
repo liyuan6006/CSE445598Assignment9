@@ -42,6 +42,12 @@
         <div>*Member page is protected page, you need to login to access it. You can click Member Register Page button to register a new user or you can use predefined username <b>name1</b> and password <b>123</b> to access it.</div>
         <table id="customers">
             <tr>
+                <td>Check out the Service Directory</td>
+                <td>
+                    <asp:Button ID="buttonServiceDirectory" runat="server" Text="Go to Service Directory" OnClick="buttonServiceDirectory_Click" /></td>
+                <td></td>
+            </tr>
+            <tr>
                 <td>You need to register and login to access member page</td>
                 <td>
                     <asp:Button ID="btnMember" runat="server" Text="Go to Member Page" OnClick="btnMember_Click" /></td>
