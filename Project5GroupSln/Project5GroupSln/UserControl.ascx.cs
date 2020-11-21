@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -21,9 +22,6 @@ namespace Project5GroupSln
             {
                 userName = "User";
             }
-
-            // Show the user the date
-            date.Text = DateTime.Now.ToString("g");
             greeting.Text =string.Format("Hello, {0}. <br> Welcome to our website!" , userName);
 
             // Let the user know if they have Staff privileges if applicable
@@ -34,6 +32,24 @@ namespace Project5GroupSln
                     staff_status.Text = "You have Staff Privileges!";
                 }
             }
+
+            // Show the user the date
+            date.Text = DateTime.Now.ToString("g");
+
+            // Show the user the number of users currently online
+            if (Application["OnlineUserCount"] != null)
+            {
+                var counter = (ConcurrentStack<int>)Application["OnlineUserCount"];
+                var count = counter.Count;
+                if (count == 1)
+                {
+                    usersOnlineLabel.Text = $"There is 1 user online.";
+                }
+                else
+                {
+                    usersOnlineLabel.Text = $"There are {count} users online.";
+                }                
+            }           
 
             // Show the user an inspirational quote
             inspirational_quote.Text = InspirationalQuoteLibrary.InspirationalQuotes.GetRandomQuote();

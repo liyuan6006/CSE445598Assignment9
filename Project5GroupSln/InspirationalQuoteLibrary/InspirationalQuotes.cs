@@ -751,16 +751,9 @@ zero–they had no way to indicate successful termination of their C
 programs.
 -- Robert Firth",
 
-@"Saying that Java is nice because it works on all OSes is like saying
-that anal sex is nice because it works on all genders.
--- Alanna",
-
 @"If Java had true garbage collection, most programs would delete
 themselves upon execution.
 -- Robert Sewell",
-
-@"Software is like sex: It’s better when it’s free.
--- Linus Torvalds",
 
 @"Any code of your own that you haven’t looked at for six or more months
 might as well have been written by someone else.
@@ -955,10 +948,6 @@ results.
 @"I’d rather write programs to write programs than write programs.
 -- Richard Sites",
 
-@"Heureux l'étudiant qui comme la Rivière peut suivre son cours sans
-quitter son lit...
--- Sebastien, sur commentcamarche.net",
-
 @":nunmap can also be used outside of a monastery.
 -- Vim user manual",
 
@@ -1041,14 +1030,6 @@ sure about the former.
 @"Sound methodology can empower and liberate the creative mind; it cannot inflame
 or inspire the drudge.
 -- Frederick P. Brooks, No Sliver Bullet.",
-
-@"La connaissance d'un défaut ne l'enlève pas, elle nous torture jusqu'à sa
-correction.
--- Daniel Lovewin (Guillaume Kpotufe)",
-
-@"Je crois au flooding.
--- Karim BAINA (en parlant du dailogue avec les administrations)",
-
 
 @"Do not spoil what you have by desiring what you have not; but remember that what
 you now have was once among the things only hoped for.
