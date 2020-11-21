@@ -16,6 +16,12 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="bin/AuthenticationLibrary.pdb">
       <publishTime>11/21/2020 09:50:00</publishTime>
     </File>
+    <File Include="bin/InspirationalQuoteLibrary.dll">
+      <publishTime>11/21/2020 12:13:37</publishTime>
+    </File>
+    <File Include="bin/InspirationalQuoteLibrary.pdb">
+      <publishTime>11/21/2020 12:13:37</publishTime>
+    </File>
     <File Include="bin/MD5hashLibrary.dll">
       <publishTime>11/21/2020 09:22:01</publishTime>
     </File>
@@ -26,10 +32,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/05/2018 16:10:50</publishTime>
     </File>
     <File Include="bin/Project5GroupSln.dll">
-      <publishTime>11/21/2020 10:57:36</publishTime>
+      <publishTime>11/21/2020 12:22:12</publishTime>
     </File>
     <File Include="bin/Project5GroupSln.pdb">
-      <publishTime>11/21/2020 10:57:36</publishTime>
+      <publishTime>11/21/2020 12:22:12</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>08/08/2018 05:38:48</publishTime>
@@ -203,7 +209,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/20/2020 19:51:11</publishTime>
     </File>
     <File Include="luke_testing.aspx">
-      <publishTime>11/20/2020 19:51:11</publishTime>
+      <publishTime>11/21/2020 11:12:58</publishTime>
     </File>
     <File Include="Member/Member.aspx">
       <publishTime>11/20/2020 19:51:11</publishTime>
@@ -224,7 +230,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/20/2020 19:51:11</publishTime>
     </File>
     <File Include="UserControl.ascx">
-      <publishTime>11/20/2020 19:51:11</publishTime>
+      <publishTime>11/21/2020 12:01:41</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>11/21/2020 09:48:24</publishTime>

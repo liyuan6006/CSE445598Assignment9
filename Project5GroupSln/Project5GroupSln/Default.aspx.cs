@@ -44,6 +44,7 @@ namespace Project5GroupSln
     {
       FormsAuthentication.SignOut();
       Session["staff"] = false;
+      Session["username"] = "User";
       Response.Write("Logged out - cookie deleted.");
     }
         /// <summary>
