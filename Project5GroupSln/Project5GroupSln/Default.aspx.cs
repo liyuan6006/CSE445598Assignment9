@@ -75,7 +75,7 @@ namespace Project5GroupSln
 
         protected void buttonServiceDirectory_Click(object sender, EventArgs e)
         {
-            Response.Redirect(@"~/ServiceDirectory.html");
+            Response.Redirect(@"~/ApplicationComponents.html");
         }
     }
 }

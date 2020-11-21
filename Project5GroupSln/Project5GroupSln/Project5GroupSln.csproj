@@ -89,7 +89,7 @@
     <Content Include="luke_testing.aspx" />
     <Content Include="MemberRegister.aspx" />
     <Content Include="Member\Member.aspx" />
-    <Content Include="ServiceDirectory.html" />
+    <Content Include="ApplicationComponents.html" />
     <Content Include="Staff\Staff.aspx" />
     <Content Include="UserControl.ascx" />
     <Content Include="Web.config" />

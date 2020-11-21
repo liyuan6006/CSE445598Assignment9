@@ -42,9 +42,9 @@
         <div>*Member page is protected page, you need to login to access it. You can click Member Register Page button to register a new user or you can use predefined username <b>name1</b> and password <b>123</b> to access it.</div>
         <table id="customers">
             <tr>
-                <td>Check out the Service Directory</td>
+                <td>Check out the Application Components Summary</td>
                 <td>
-                    <asp:Button ID="buttonServiceDirectory" runat="server" Text="Go to Service Directory" OnClick="buttonServiceDirectory_Click" /></td>
+                    <asp:Button ID="buttonServiceDirectory" runat="server" Text="Application Components" OnClick="buttonServiceDirectory_Click"/></td>
                 <td></td>
             </tr>
             <tr>
