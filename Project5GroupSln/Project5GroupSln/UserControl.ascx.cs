@@ -43,11 +43,11 @@ namespace Project5GroupSln
                 var count = counter.Count;
                 if (count == 1)
                 {
-                    usersOnlineLabel.Text = $"There is 1 user online.";
+                    usersOnlineLabel.Text = $"1 user on Server.";
                 }
                 else
                 {
-                    usersOnlineLabel.Text = $"There are {count} users online.";
+                    usersOnlineLabel.Text = $"{count} users on Server.";
                 }                
             }           
 
