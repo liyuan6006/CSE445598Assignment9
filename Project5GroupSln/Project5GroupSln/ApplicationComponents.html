@@ -161,7 +161,7 @@
         <tr>
             <td>Michael Syrjala</td>
             <td>
-                Global.asax: Active Session Counter<br />
+                Global.asax<br />
             </td>
             <td>
                 Uses a thread safe collection to keep track of the number of active sessions that the application currently has. This information is then provided to the user in the UserControl.
@@ -169,6 +169,30 @@
             </td>
             <td>
                 Utilizes a thread safe ConcurrentStack bound to an Application state variable. The number of items in the stack is the count of active sessions.
+            </td>
+        </tr>
+        <tr>
+            <td>Michael Syrjala</td>
+            <td>
+                Member Page<br />
+            </td>
+            <td>
+                Provides access to the services that are reserved for members only.<br />
+            </td>
+            <td>
+                GUI design and C# code behind GUI.
+            </td>
+        </tr>
+        <tr>
+            <td>Michael Syrjala</td>
+            <td>
+                SVC Service<br />
+            </td>
+            <td>
+                Word Stemming and Word Filtering services.<br />
+            </td>
+            <td>
+                Write my own code to provide stemming and filtering capablity.
             </td>
         </tr>
         <tr>
@@ -197,9 +221,23 @@
         </tr>
         <tr>
             <td>Luke Schulz</td>
+            <td>Cookie</td>
+            <td>Add support for persitence of login through use of cookie</td>
+            <td>Use ASP.NET cookie library functions</td>
+        </tr>
+        <tr>
+            <td>Luke Schulz</td>
             <td>Create Staff</td>
             <td>Create new staff accounts, only from the staff page</td>
             <td>Utilized our XMLService to add staff member accounts to staff.xml , only available on protected staff page</td>
+        </tr>
+        <tr>
+            <td>Luke Schulz</td>
+            <td>SVC service</td>
+            <td>Derives the Top Ten Content Words found at a URL</td>
+            <td>
+                Requires a call to ASU getWebContent() service to parse website into a string. Then write my own code to remove html elements. Filter against a list of known stop words.
+            </td>
         </tr>
 
         <tfoot>
