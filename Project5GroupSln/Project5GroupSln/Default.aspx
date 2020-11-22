@@ -37,7 +37,7 @@
     <form id="form1" runat="server">
         <uc:greeting runat="server" />
 
-        <h3 style="text-align: center">Default Page</h3>
+        <h3 style="text-align: center">Default Page - SEOHub Provide Search Engine Optimization Services</h3>
         <div>*This system uses forms-based authentication. Default and Register pages are public pages, everyone can access it.</div>
         <div>*Member page is protected page, you need to login to access it. You can click Member Register Page button to register a new user or you can use predefined username <b>name1</b> and password <b>123</b> to access it.</div>
         <table id="customers">
@@ -65,7 +65,7 @@
             </tr>
 
             <tr>
-                <td>The logout button will clear authentication tiket. You will have to login again.</td>
+                <td>The logout button will clear authentication ticket. You will have to login again.</td>
                 <td>
                     <asp:Button ID="btnClear" runat="server" Text="Logout" OnClick="btnClear_Click" /></td>
                 <td></td>
