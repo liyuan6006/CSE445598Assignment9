@@ -82,6 +82,16 @@
     <None Include="Connected Services\SEOService\RequiredServices1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Connected Services\WordService\Service1.wsdl" />
+    <None Include="Connected Services\WordService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WordService\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WordService\Service12.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\XMLServiceRef\configuration91.svcinfo" />
     <None Include="Connected Services\XMLServiceRef\configuration.svcinfo" />
     <None Include="Connected Services\XMLServiceRef\Reference.svcmap">
@@ -92,6 +102,12 @@
     <None Include="Connected Services\SEOService\configuration91.svcinfo" />
     <None Include="Connected Services\SEOService\configuration.svcinfo" />
     <None Include="Connected Services\SEOService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\WordService\configuration91.svcinfo" />
+    <None Include="Connected Services\WordService\configuration.svcinfo" />
+    <None Include="Connected Services\WordService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -118,6 +134,11 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Connected Services\SEOService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\WordService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -229,6 +250,7 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\ImageVerifierServiceRef\" />
     <WCFMetadataStorage Include="Connected Services\SEOService\" />
+    <WCFMetadataStorage Include="Connected Services\WordService\" />
     <WCFMetadataStorage Include="Connected Services\XMLServiceRef\" />
   </ItemGroup>
   <ItemGroup>

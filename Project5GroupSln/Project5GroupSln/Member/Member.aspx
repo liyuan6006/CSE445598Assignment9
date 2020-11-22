@@ -13,16 +13,22 @@
             margin-right: 20%;
             width: 60%;
         }
+        .bold{
+            font-weight: bolder;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <uc:greeting runat="server" />
-        <h3>Member Page</h3>
+        <h3>Member Page - SEO Services</h3>
 
         <div>
-            This is member page.
-            Member page is how you select which of your existing website pages are for members only.        
+            By being a member you get access to the following SEO Services:<br />
+            <br />
+            <span class="bold">Word Filter:</span> Removes stop words from a string that are not meaningful when counted as the top words in a search.<br />
+            Enter the string to be processed:<br />
+            <asp:TextBox ID="wordFilterTextBox" runat="server" style="width:100%"></asp:TextBox>
         </div>
         <asp:Button ID="btnBackToDefault" runat="server" Text="Go back to Default page" OnClick="btnBackToDefault_Click" />
 

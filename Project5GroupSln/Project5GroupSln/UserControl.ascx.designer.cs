@@ -24,15 +24,6 @@ namespace Project5GroupSln
         protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
-        /// greeting control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label greeting;
-
-        /// <summary>
         /// staff_status control.
         /// </summary>
         /// <remarks>
@@ -40,6 +31,15 @@ namespace Project5GroupSln
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label staff_status;
+
+        /// <summary>
+        /// greeting control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label greeting;
 
         /// <summary>
         /// date control.
