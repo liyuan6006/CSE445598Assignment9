@@ -66,7 +66,7 @@
             <tr>
                 <td>Persistent Cookie:</td>
                 <td>
-                    <asp:CheckBox ID="chekRememberMe" class="form-check-input" runat="server" AutoPostBack="false" /></td>
+                    <asp:CheckBox ID="chekRememberMe" class="form-check-input" runat="server" AutoPostBack="false" Checked="True" /></td>
             </tr>
             <tr>
                 <td colspan="2">
